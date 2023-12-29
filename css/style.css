@@ -14,17 +14,27 @@ body{
     display: flex;
     flex-direction: column;
 }
-header{
-   background-color: white;
-   padding-top: 1%;
-   padding-bottom: 1%;
-   margin-bottom: 20%;
-   position: sticky;
-   top: 0;
-   z-index: 1;
+.navbar{
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+#header_index{
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 20%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 main{
+  border-top: 1px solid #ffffff;
+  box-shadow: inset 0 3px 4px rgba(181, 181, 181, 0.2);
    background-color: white;
    position: relative;
 }
@@ -59,7 +69,11 @@ main{
   text-decoration: none;
  }
 
- footer{
+ .active a{
+  color: rgb(222, 35, 51);
+ }
+
+ .footer_final{
     padding-top: 5%;
     padding-bottom: 3%;
     background-color: black;
@@ -106,6 +120,15 @@ main{
  }
 
  /***** AQUÍ EMPEZAMOS CON EL MAIN *****/
+ main p a{
+  text-decoration: none;
+  color: rgb(222, 35, 51);
+ }
+
+ main p a:hover{
+  text-decoration: underline;
+  color: rgb(0,0,0);
+ }
 
  #texto-superpuesto{
    font-size: 40px;
@@ -116,7 +139,7 @@ main{
    transform: translate(90%, 30%);
  }
 
- h2{
+ #index_article h2{
    text-align: center;
  }
 
@@ -179,3 +202,55 @@ main{
  #section_index h3{
    width: 290px;
  }
+
+ .contenedor_aplicaciones main{
+  background-color: rgb(244, 246, 247);
+  
+ }
+
+ .contenedor_aplicaciones h1{
+  text-align: center;
+ }
+
+ .contenedor_aplicaciones section{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 5%;
+ }
+
+.contenedor_aplicaciones article{
+  background-color: rgb(244, 246, 247);
+  margin-top: 4%;
+  order: 1;
+  width: 300px;
+  height: 300px;
+}
+
+.contenedor_aplicaciones article h2{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.contenedor_aplicaciones article p{
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+.contenedor_aplicaciones article footer a{
+  text-decoration: none;
+  color: rgb(222, 35, 51);
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.contenedor_aplicaciones article footer a:hover{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}

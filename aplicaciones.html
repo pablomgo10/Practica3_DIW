@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="./materiales3/img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <header>
+    <header class="navbar">
         <p class="ia">
             <a href="index.html"> <strong>IA</strong> al día</a>
         </p>
         <nav>
             <ul class="nav">
-                <li><a href="./aplicaciones.html">APLICACIONES</a></li>
+                <li class="active"><a href="./aplicaciones.html">APLICACIONES</a></li>
                 <li><a href="">NOTICIAS</a></li>
                 <li><a href="./en-el-cine.html">EN EL CINE</a></li>
             </ul>
@@ -22,24 +24,118 @@
 
     </header>
 
-    <main>
-        <figure>
-            <img src="./materiales3/img/isologo-despacho42.jpg">
-        </figure>
-        <figure>
-            <img src="./materiales3/img/isologo-despacho42.jpg">
-        </figure>
-        <figure>
-            <img src="./materiales3/img/isologo-despacho42.jpg">
-        </figure>
-        <figure>
-            <img src="./materiales3/img/isologo-despacho42.jpg">
-        </figure>
-        <svg width="100" height="100" class="circulo">
-            <circle cx="50" cy="50" r="40" fill="red" />
-          </svg>
+    <main class="contenedor_aplicaciones">
+        <header>
+            <h1>Aplicaciones de inteligencia artificial</h1>
+        </header>
+        <section>
+            <article>
+                <header>
+                    <h2>DALL-E 2</h2>
+                </header>
+                <main>
+                    <p>DALL-E es un sistema de IA que, recurriendo a una potente base de datos, puede crear imágenes
+                        realistas a partir de una descripción elaborada en lenguaje natural.</p>
+                </main>
+                <footer>
+                    <a href="https://openai.com/product/dall-e-2">
+                        <p>&gt; Sitio oficial de DALL-E</p>
+                    </a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h2>Midjourney</h2>
+                </header>
+                <main>
+                    <p>Midjourney es una herramienta que permite crear imágenes a partir de descripciones dadas en
+                        lenguaje natural. Funciona a través de <a href="https://discord.com">Discord</a>.</p>
+                </main>
+                <footer>
+                    <a href="https://www.midjourney.com/home/">
+                        <p>&gt; Sitio oficial de Midjourney </p>
+                    </a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h2>Synthesia</h2>
+                </header>
+                <main>
+                    <p>Synthesia es una herramienta para construir vídeos a partir de texto. Avatares humanos y voces
+                        generadas con IA pueden leer los textos proporcionados.</p>
+                </main>
+                <footer>
+                    <a href="https://www.synthesia.io/">
+                        <p>&gt; Sitio oficial de Synthesia</p>
+                    </a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h2>ChatGPT</h2>
+                </header>
+                <main>
+                    <p>ChatGPT es una inteligencia artificial conversacional. Procesa y genera texto con una calidad y
+                        fluidez muy cercana a la de un ser humano.</p>
+                </main>
+                <footer>
+                    <a href="https://chat.openai.com/">
+                        <p>&gt; Sitio oficial de ChatGPT</p>
+                    </a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h2>Codeium</h2>
+                </header>
+                <main>
+                    <p>Codeium es una herramienta de IA que permite autocompletar fragmentos de código. Tiene
+                        extensiones para navegadores y plataformas de programación.</p>
+                </main>
+                <footer>
+                    <a href="https://codeium.com/">
+                        <p>&gt; Sitio oficial de Codeium</p>
+                    </a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h2>GitHub Copilot</h2>
+                </header>
+                <main>
+                    <p>GitHub Copilot convierte las indicaciones que se le hagan en lenguaje natural en sugerencias de
+                        codificación en diversos lenguajes de programación..</p>
+                </main>
+                <footer>
+                    <a href="https://github.com/features/copilot]">
+                        <p>&gt; Sitio oficial de GitHub Copilot </p>
+                    </a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h2>AI Suggests</h2>
+                </header>
+                <main>
+                    <p>AI Suggests, a partir de una temática indicada por el usuario, genera contenido original para
+                        blogs utilizando inteligencia artificial.</p>
+                </main>
+                <footer>
+                    <a href="https://ai-suggests.com/">
+                        <p>&gt; Sitio oficial de AI Suggests</p>
+                    </a>
+                </footer>
+            </article>
+        </section>
     </main>
-    <footer>
+    <footer class="footer_final">
         <ul class="footer-nav">
             <li> <a href=""> Sobre nosotros</a></li>
             <li>&middot;</li>
@@ -58,4 +154,5 @@
         <p>Actividad realizada por Pablo Pastor Alfaro</p>
     </footer>
 </body>
+
 </html>
