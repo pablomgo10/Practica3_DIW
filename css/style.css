@@ -108,12 +108,6 @@ main{
     padding-bottom: 2%;
  }
 
-.circulo circle{
-  fill: blue;
-}
-
-
-
  footer p{
     width: 80%;
     margin: 0 auto;
@@ -278,3 +272,93 @@ main{
   width: 95%;
   margin:0 auto;
 }
+
+.contenedor_despacho article{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 5%;
+  padding-bottom: 5%;
+}
+
+.contenedor_despacho section:first-child{
+  width: 70%;
+}
+
+.contenedor_despacho section picture img{
+  width: 100%;
+  height: 300px;
+}
+
+ul.breadcrumb {
+  width: 80%;
+  margin:0 auto;
+  padding: 10px 16px;
+  list-style: none;
+  padding-bottom: 2%;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 13px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+ul.breadcrumb li.active a {
+  color: rgb(222, 35, 51);
+}
+
+ul.breadcrumb li a:hover {
+  color: rgb(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.contenedor_despacho >article> section > article{
+  width: 100%;
+}
+
+.contenedor_despacho >article> section > .despacho42{
+  background-color: rgb(244, 246, 247);
+}
+
+.contenedor_despacho >article> section > .despacho42 > picture > img{
+  border-radius: 20% 20% 20% 20%;
+  margin: 30%;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.contenedor_despacho >article> section > .despacho42 > article > header >h4{
+  font-size: 30px;
+}
+
+.contenedor_despacho >article> section > .despacho42 > article > p{
+  width: 90%;
+  line-height: 1.5;
+}
+
+.contenedor_despacho >article> section > .despacho42 > article > ul{
+  width: 50%;
+  list-style:none;
+}
+
+.contenedor_despacho >article> section > .despacho42 > article > ul li a{
+  color: rgb(222, 35, 51);
+  text-decoration: none;
+}
+
+.contenedor_despacho >article> section > .despacho42 > article > ul li a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
