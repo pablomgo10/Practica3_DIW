@@ -208,7 +208,7 @@ main{
   
  }
 
- .contenedor_aplicaciones h1{
+ .contenedor_aplicaciones h1, .contenedor_cine h1{
   text-align: center;
  }
 
@@ -253,4 +253,28 @@ main{
 .contenedor_aplicaciones article footer a:hover{
   text-decoration: none;
   color: rgb(0,0,0);
+}
+
+.contenedor_cine section{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.contenedor_cine article{
+  background-color: rgb(244, 246, 247);
+  margin-top: 4%;
+  order: 1;
+  width: 550px;
+  height: 390px;
+}
+
+.contenedor_cine p{
+  padding-top: 1%;
+  font-size: 14px;
+  width: 95%;
+  margin:0 auto;
 }
