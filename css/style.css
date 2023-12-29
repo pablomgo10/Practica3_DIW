@@ -1,17 +1,22 @@
 body{
+   background-image: url("../materiales3/img/bg-hero-home.jpg");
+   background-repeat:no-repeat;
+   background-size: 100% 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
+header{
+   background-color: white;
+   margin-bottom: 20%;
+}
 
 main{
-    order: 0; 
-    width: 76%;
-    margin: 0 auto;
+   background-color: white;
 }
 
 .ia{
-    width: 78%;
+    width: 77%;
     margin: 0 auto;
     font-size: 2em;
 }
@@ -51,26 +56,7 @@ main{
     width: 76%;
     margin: 0 auto;
  }
- #foto_index{
-    margin: 0;
-    border: 1px solid red;
-    width: 100vw;
-    position: relative;
-    display: inline-block;
- }
 
- #foto_index img{
-    
-   width: 100vw;
-   height: 300px;
- }
+ /***** AQUÍ EMPEZAMOS CON EL MAIN *****/
 
- #texto-superpuesto{
-    color: white;
-    position:absolute;
-    top: 0%;
-    right: 20%;
-    left: 35%;
-    transform: translate(-10%, -20%);
-    font-size: 80px;
- }
+ 
