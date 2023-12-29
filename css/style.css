@@ -66,16 +66,34 @@ main{
    position: absolute;
    top: -180%;
    right: 60%;
-   transform: translate(90%, -20%);
+   transform: translate(90%, 30%);
  }
 
  h2{
    text-align: center;
  }
 
- article p{
+#index_article p{
    border: 1px solid red;
    width: 80%;
    margin: 0 auto;
    padding-bottom: 10px;
+ }
+
+ #section_index{
+   display: flex;
+   margin: 0 auto;
+ }
+
+ #section_index article{
+   border: 1px solid red;
+ }
+
+ #section_index figure{
+   text-align: center;
+ }
+
+ #section_index figure img{
+   width: 200px;
+   height: 200px;
  }
