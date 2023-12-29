@@ -13,15 +13,16 @@ header{
 
 main{
    background-color: white;
+   position: relative;
 }
 
 .ia{
-    width: 77%;
+    width: 80%;
     margin: 0 auto;
     font-size: 2em;
 }
  .nav{
-    width: 80%;
+    width: 83%;
     margin: 0 auto;
     border: 1px solid red;
     list-style: none;
@@ -39,7 +40,7 @@ main{
 
  .footer-nav{
     border: 1px solid red;
-    width: 78%;
+    width: 83%;
     margin: 0 auto;
     list-style: none;
     display: flex;
@@ -48,15 +49,33 @@ main{
  }
  .imagenes_footer{
     border: 1px solid red;
-    width: 76%;
+    width: 80%;
     margin: 0 auto;
  }
 
  footer p{
-    width: 76%;
+    width: 80%;
     margin: 0 auto;
  }
 
  /***** AQUÍ EMPEZAMOS CON EL MAIN *****/
 
- 
+ #texto-superpuesto{
+   font-size: 40px;
+   color: white;
+   position: absolute;
+   top: -180%;
+   right: 60%;
+   transform: translate(90%, -20%);
+ }
+
+ h2{
+   text-align: center;
+ }
+
+ article p{
+   border: 1px solid red;
+   width: 80%;
+   margin: 0 auto;
+   padding-bottom: 10px;
+ }
