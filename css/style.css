@@ -1,7 +1,7 @@
 body{
    background-image: url("../materiales3/img/bg-hero-home.jpg");
    background-repeat:no-repeat;
-   background-size: 100% 100%;
+   background-size: 100% 50%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,6 @@ main{
  .nav{
     width: 83%;
     margin: 0 auto;
-    border: 1px solid red;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -39,7 +38,6 @@ main{
  }
 
  .footer-nav{
-    border: 1px solid red;
     width: 83%;
     margin: 0 auto;
     list-style: none;
@@ -48,7 +46,6 @@ main{
     gap: 15px;
  }
  .imagenes_footer{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
  }
@@ -64,7 +61,7 @@ main{
    font-size: 40px;
    color: white;
    position: absolute;
-   top: -180%;
+   top: -40%;
    right: 60%;
    transform: translate(90%, 30%);
  }
@@ -74,26 +71,48 @@ main{
  }
 
 #index_article p{
-   border: 1px solid red;
-   width: 80%;
+   width: 60%;
    margin: 0 auto;
    padding-bottom: 10px;
  }
 
  #section_index{
    display: flex;
+   justify-content: center;
+   gap: 11%;
    margin: 0 auto;
+   
  }
 
  #section_index article{
-   border: 1px solid red;
+   width: 20%;
  }
 
  #section_index figure{
-   text-align: center;
+   text-align: left;
+   margin: 0;
  }
 
+
+
  #section_index figure img{
-   width: 200px;
-   height: 200px;
+   width: 290px;
+   height: 250px;
+ }
+
+ #section_index p:nth-of-type(1){
+   width: 290px;
+   height: 100px;
+ }
+
+ #section_index p:last-child{
+   margin-top: 4%;
+   width: 290px;
+   padding-bottom: 1%;
+   color: red;
+ }
+
+ #section_index h3{
+   color: red;
+   width: 290px;
  }
