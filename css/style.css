@@ -14,22 +14,23 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 33;
+}
 .navbar{
   background-color: white;
   padding-top: 1%;
   padding-bottom: 1%;
-  position: sticky;
-  top: 0;
-  z-index: 4;
+
 }
 #header_index{
   background-color: white;
   padding-top: 1%;
   padding-bottom: 1%;
   margin-bottom: 20%;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 main{
@@ -43,6 +44,7 @@ main{
     width: 80%;
     margin: 0 auto;
     font-size: 2em;
+    
     
 }
 
@@ -91,6 +93,7 @@ main{
     gap: 15px;
     padding-bottom: 1%;
  }
+
 
  .footer-nav a{
   color:white;
@@ -163,20 +166,22 @@ main{
 
 
  #section_index figure img{
-   width: 290px;
-   height: 250px;
+  border: 1px solid red;
+   width: 100%;
+   height: 100%;
  }
 
  #section_index p:nth-of-type(1){
-   width: 290px;
-   height: 100px;
+  border: 1px solid red;
+   width: 100%;
+   height: 18%;
  }
 
  #section_index p:last-child{
+  border: 1px solid red;
   font-size: 10px;
-   margin-top: 4%;
-   width: 290px;
-   padding-top: 8%;
+   width: 100%;
+   padding-top: 4%;
    padding-bottom: 8em;
    color: red;
  }
@@ -194,7 +199,9 @@ main{
 }
 
  #section_index h3{
-   width: 290px;
+  border: 1px solid red;
+  font-weight: bold;
+   width: 100%;
  }
 
  .contenedor_aplicaciones main{
@@ -360,5 +367,81 @@ ul.breadcrumb li a:hover {
 .contenedor_despacho >article> section > .despacho42 > article > ul li a:hover{
   color: rgb(0, 0, 0);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1326px) {
+
+  body{
+     background-size: 100% 50%;
+  }
+
+  .nav{
+    width: 90%;
+    text-align: center;
+    display:inline;
+ }
+
+ .footer_final{
+  text-align: center;
+}
+
+.footer-nav{
+  border: 1px solid red;
+  width: 60%;
+  margin-right: 20%;
+  display: inline;
+  padding-bottom: 1%;
+}
+
+.punto{
+display: none;
+}
+
+ #texto-superpuesto{
+  font-size: 30px;
+  position: absolute;
+  top: -23%;
+  right: 50%;
+  transform: translate(70%, 60%);
+}
+
+#index_article p{
+  width: 90%;
+}
+
+   #section_index{
+    justify-content: center;
+    gap: 3%;
+  }
+
+  #section_index article{
+    width: 28%;
+  }
+
+  #section_index p:nth-of-type(1){
+    border: 1px solid red;
+    width: 100%;
+    height: 25%;
+  }
+
+  #section_index p:last-child{
+    border: 1px solid red;
+    font-weight: bold;
+     width: 100%;
+   }
+
+   #section_index h3{
+    border: 1px solid red;
+    font-size: 23px;
+    width: 98%;
+  }
+
+  #section_index figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  
+    
 }
 
