@@ -45,7 +45,6 @@ main{
     margin: 0 auto;
     font-size: 2em;
     
-    
 }
 
 .ia a{
@@ -128,10 +127,10 @@ main{
  }
 
  #texto-superpuesto{
-   font-size: 40px;
+   font-size: 3em;
    color: white;
    position: absolute;
-   top: -40%;
+   top: -30%;
    right: 60%;
    transform: translate(90%, 30%);
  }
@@ -369,10 +368,16 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
+/*** USO PARA TABLETA. TABLETA DE EJEMPLO: IPAD & IPAD PRO ***/
+
 @media screen and (max-width: 1326px) {
 
   body{
      background-size: 100% 50%;
+  }
+
+  .ia{
+    text-align: center;
   }
 
   .nav{
@@ -398,9 +403,9 @@ display: none;
 }
 
  #texto-superpuesto{
-  font-size: 30px;
+  font-size: 3em;
   position: absolute;
-  top: -23%;
+  top: -30%;
   right: 50%;
   transform: translate(70%, 60%);
 }
@@ -440,8 +445,50 @@ display: none;
     width: 100%;
     height: 100%;
   }
-
-  
     
+}
+
+/*** USO PARA TABLETA. TABLETA DE EJEMPLO: IPAD ***/
+
+@media screen and (max-width: 995px){
+
+  #texto-superpuesto{
+    font-size: 2em;
+    top: -25%;
+  }
+}
+
+/*** USO PARA TABLETA. TABLETA DE EJEMPLO: IPAD ***/
+
+@media screen and (max-width: 730px){
+
+  #texto-superpuesto{
+    font-size: 1.5em;
+    top: -5%;
+  }
+
+  #section_index{
+    display: inline;
+  }
+
+  #section_index article{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #section_index p:last-child{
+    border: 1px solid red;
+    padding-bottom:10%;
+   }
+
+}
+/*** USO PARA SMARTPHONE. SMARTPHONE DE EJEMPLO: IPHONE 12 PRO MAX & IPHONE SE ***/
+
+@media screen and (max-width: 498px){
+
+  #texto-superpuesto{
+    font-size: 1.1em;
+    top: -4%;
+  }
 }
 
