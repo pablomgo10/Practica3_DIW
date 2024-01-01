@@ -33,12 +33,12 @@
         <article>
 
             <section>
-                <picture>
-                    <img src="./materiales3/img/n-despacho42-post.jpg">
+                <figure>
+                    <img src="./materiales3/img/n-despacho42-post.jpg" alt="foto_despacho">
                     <figcaption>
                         <p>Por Alba Pueyo i Busquets | 23 de febrero de 2023</p>
                     </figcaption>
-                </picture>
+                </figure>
                 <h1>Despacho 42: Inteligencia artificial y arte con Andrés Burbano</h1>
                 <p>En el episodio de 23 de febrero del podcast Despacho 42, César Córcoles y Susanna Tesconi, profesores
                     de los Estudios de Informática, Multimedia y Telecomunicaciones de la UOC, conversan sobre IA y arte
@@ -184,9 +184,9 @@
                     </p>
                 </article>
                 <article class="despacho42">
-                    <picture>
-                        <img src="./materiales3/img/isologo-despacho42.jpg">
-                    </picture>
+                    <figure>
+                        <img src="./materiales3/img/isologo-despacho42.jpg" alt="imagen_logo_despacho">
+                    </figure>
                     <article>
                         <header>
                             <h4>¿Qué es Despacho 42?</h4>
@@ -209,12 +209,47 @@
                             <li><a href="https://podcasts.apple.com/us/podcast/despacho-42-tecnolog%C3%ADa-y-arte-con-andr%C3%A9s-burbano/id1499615619?i=1000601274966"> > Apple Podcasts</a></li>
                         </ul>
                     </article>
+
                 </article>
+
+                <article id="form">
+                    <header>
+                        <h3>Deja un comentario</h3>
+                    </header>
+                    <form action="#" method="post">
+                        <p>Todos los campos son obligatorios</p>
+                        <label>Mensaje</label><br>
+                        <textarea></textarea><br>
+                        <label>Nombre</label><br>
+                        <input type="text" name="nombre" id="nombre" required><br>
+                        <label>Correo eléctronico</label><br>
+                        <input type="email" name="email" id="email" required><br>
+                        <input type="checkbox" name="privacidad" id="privacidad">
+                        <label for="privacidad">He leído y acepto la <a href="#">política de privacidad</a></label>
+                        <br>
+                        <input type="submit" value="ENVIAR EL COMENTARIO">
+                    </form>
+                </article>
+
             </section>
 
-            <section>
-                <p>ADIOOOOOOOOOS</p>
-                <p>ADIOOOOOOOOOS</p>
+            <section class="recientes">
+                <h2>Artículos recientes</h2>
+                <article>
+                    <picture>
+                        <img src="./materiales3/img/n-geoffrey-hinton-thumbnail.jpg" alt="Geoffrey_recientes">
+                    </picture>
+                    <p>Geoffrey Hinton advierte de los peligros de la IA</p>
+                    <p>20-04-2023</p>
+                </article>
+                <hr>
+                <article>
+                    <picture>
+                        <img src="./materiales3/img/n-ue-ia-thumbnail.jpg" alt="ue_recientes">
+                    </picture>
+                    <p>Bruselas prepara la ley de IA para regular su avance</p>
+                    <p>02-05-2023</p>
+                </article>
             </section>
         </article>
 
