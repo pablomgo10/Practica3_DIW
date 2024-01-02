@@ -453,7 +453,6 @@ input:nth-of-type(-n+2) {
 }
 
 .recientes article p {
-border: 1px solid red;
   width: 110%;
   margin: 0;
 }
@@ -574,6 +573,58 @@ border: 1px solid red;
     margin-bottom: 4%;
   }
 
+  .contenedor_despacho article {
+    width: 90%;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .contenedor_despacho section:first-child {
+    width: 100%;
+  }
+
+  .contenedor_despacho>article>section>.despacho42 {
+    flex-flow: row nowrap;
+  }
+
+  .contenedor_despacho>article>section>.despacho42>figure>img {
+    margin: 15%;
+  }
+
+  .despacho42 > article{
+    width: 83%;
+  }
+
+  .despacho42>article>ul {
+    padding-left: 0;
+    width: 70%;
+  }
+
+  .recientes {
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 70%;
+    align-self: center;
+  }
+
+  .recientes article{
+    margin-top: 1%;
+  }
+
+  .recientes article p {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.5em;
+  }
+
+  .recientes article p:last-child {
+    margin-top: 1%;
+    width: 40%;
+    font-size: 1.2em;
+  }
+
+  
+
 }
 
 /*** USO PARA TABLETA. TABLETA DE EJEMPLO: IPAD ***/
@@ -640,5 +691,53 @@ border: 1px solid red;
 
   .contenedor_aplicaciones section article {
     width: 90%;
+  }
+
+  .contenedor_despacho article {
+    width: 90%;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .contenedor_despacho>article>section>.despacho42 {
+    display: inline;
+  }
+
+
+  .contenedor_despacho>article>section>.despacho42>figure {
+    width: 30%;
+    margin: 0;
+  }
+
+  .contenedor_despacho>article>section>.despacho42>figure>img {
+    margin: 0px;
+  }
+
+  .despacho42 > article{
+    margin: 0;
+    width: 83%;
+  }
+
+  .despacho42>article>ul {
+    padding-left: 0;
+    width: 70%;
+  }
+
+  .recientes {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .recientes article{
+    margin-top: 4%;
+  }
+
+  .recientes article p {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .recientes article p:last-child {
+    font-size: 0.8em;
   }
 }
