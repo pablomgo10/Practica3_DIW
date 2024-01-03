@@ -28,7 +28,7 @@
 body {
   font-family: "fuente-google";
   background-image: url("../materiales3/img/bg-hero-home.jpg");
-  background-size: 80% 70%;
+  background-size: 80% 110%;
   background-attachment: fixed;
   margin: 0;
   display: flex;
@@ -152,12 +152,13 @@ main p a:hover {
 }
 
 #texto-superpuesto {
-  font-size: 3em;
+  text-align: center;
+  font-size: 3.3em;
   color: white;
   position: absolute;
-  top: -30%;
+  top: -35%;
   right: 60%;
-  transform: translate(90%, 30%);
+  transform: translate(78%, 30%);
 }
 
 #index_article h2 {
@@ -516,7 +517,7 @@ input:nth-of-type(-n+2) {
 @media screen and (max-width: 1326px) {
 
   body {
-    background-size: 100% 50%;
+    background-size: 100% 100%;
   }
 
   .ia {
@@ -718,6 +719,10 @@ input:nth-of-type(-n+2) {
 /*** USO PARA SMARTPHONE. SMARTPHONE DE EJEMPLO: IPHONE 12 PRO MAX & IPHONE SE ***/
 
 @media screen and (max-width: 498px) {
+
+  body {
+    background-size: 100% 50%;
+  }
 
   #texto-superpuesto {
     font-size: 1.1em;
