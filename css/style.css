@@ -553,7 +553,7 @@ input:nth-of-type(-n+2) {
     position: absolute;
     top: -30%;
     right: 50%;
-    transform: translate(70%, 60%);
+    transform: translate(55%, 60%);
   }
 
   #index_article p {
@@ -674,6 +674,7 @@ input:nth-of-type(-n+2) {
   #texto-superpuesto {
     font-size: 2em;
     top: -25%;
+    transform: translate(55%, 60%);
   }
 
   .contenedor_aplicaciones section {
@@ -691,6 +692,7 @@ input:nth-of-type(-n+2) {
   #texto-superpuesto {
     font-size: 1.5em;
     top: -5%;
+    transform: translate(55%, 30%);
   }
 
   #section_index {
