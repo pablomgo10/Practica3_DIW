@@ -4,6 +4,7 @@
 - Se ha conseguido las fuentes necesarias a través de una página, ya que en Google Fonts, no he encontrado Source Sans Pro. Las he implementado y les he dado un nombre para luego poder usarlas en todo el `body`.
 
 ## Maquetación & Responsive
+
 - Se ha utilizado `Flexbox` para la maquetación ya que `Grid` según he visto, es más potente, pero más complicado, y para unas páginas sin una necesidad muy grande de maquetación, con `Flexbox` sobraba. 
   --
 - Para hacer el responsive, se ha utilizado los `@media screen` con diferentes tamaños de pantalla. Se ha utilizado como ejemplo iPad, iPad Pro, iPhone 12 Pro, y iPhone SE. También se ha creado algún `@media screen` intermedio ya que así, sea cual sea el tamaño, se vería bien en todos los dispositivos.
