@@ -52,6 +52,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   gap: 30px;
+  font-weight: bold;
 }
 
 #header_index {
@@ -82,9 +83,6 @@ main {
   text-decoration: none;
   color: black;
 }
-
-
-
 
 .nav a {
   text-decoration: none;
@@ -529,6 +527,8 @@ input:nth-of-type(-n+2) {
     width: 90%;
     text-align: center;
     display: inline;
+    line-height: 1.5;
+    font-size: 0.9em;
   }
 
   .footer_final {
