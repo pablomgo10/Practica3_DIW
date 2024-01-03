@@ -15,4 +15,4 @@
 - Al hacer el `position: sticky` se desplaza al hacer scroll todo el header, ya que visualmente, pienso que es más bonito.
 - Para hacer la barra de navegación, se ha utilizado también `Flexbox` para poder meter espacios entre los items. También, da mucha más posibilidad a manejar la barra de navegación como deseas.
 - Se ha quitado el margen para poder dejarlo a la izquierda sin espacios y que cuadre con el resto de la página.
-- He realizado 2 cabeceras distintas, ya que una cabecera llamada **header_index** la utilizo solamente para **index.html**, porque al tener justo abajo el texto encima del fondo, lo he tenido que hacer de esa forma. La otra cabecera llamada **navbar** es utilizada para el resto de páginas ya que todas tienen la misma estructura.
+- He realizado 2 cabeceras distintas, ya que una cabecera llamada ***header_index*** la utilizo solamente para ***index.html***, porque al tener justo abajo el texto encima del fondo, lo he tenido que hacer de esa forma. La otra cabecera llamada ***navbar*** es utilizada para el resto de páginas ya que todas tienen la misma estructura.
