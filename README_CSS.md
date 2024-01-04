@@ -31,6 +31,7 @@
 - Cuando las pantallas son más pequeñas, se ha expandido hasta un 90% el ancho de las páginas web.
 
 ## Index.html
+- El fondo es una imagen que hay en la carpeta de imagenes, dentro de materiales. Cuando se hace la pantalla más pequeña, se va ajustando para que quede lo mejor posible a los mockups.
 - Para el texto encima del fondo en ***index.html***, se ha tenido que poner en `position: absolute` y dependiendo de cada tamaño de pantalla, se han ido ajustando los valores para subir el texto, tamaño letras, y ajustar a los lados.
 - Para los párrafos de la página, se ha añadido un espaciado entre líneas, para que sea más cómoda la legibilidad.
 - Para la sección de ***Al día***, se ha usado `flexbox` para poder organizar de una forma correcta los articulos, con sus respectivas imagenes, titulos, y párrafos. Se ha añadido también un espaciado entre ellos para que no se junten.
