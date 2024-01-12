@@ -18,6 +18,7 @@
 - Para hacer la barra de navegación, se ha utilizado también `Flexbox` para poder meter espacios entre los items. También, da mucha más posibilidad a manejar la barra de navegación como deseas.
 - Se ha quitado el margen para poder dejarlo a la izquierda sin espacios y que cuadre con el resto de la página.
 - He realizado 2 cabeceras distintas, ya que una cabecera llamada ***header_index*** la utilizo solamente para ***index.html***, porque al tener justo abajo el texto encima del fondo, lo he tenido que hacer de esa forma. La otra cabecera llamada ***navbar*** es utilizada para el resto de páginas ya que todas tienen la misma estructura.
+- Se ha puesto un `box-shadow` para que quede lo más similar a los mockups.
 
 ## Footer
 
@@ -27,7 +28,6 @@
 
 ## Main
 
-- Se ha puesto un borde superior con una pequeña sombra como en las fotos.
 - Se ha puesto en `position: relative` porque es necesario si queremos poner le texto encima del fondo ya que de esa forma, nos permitiría mover el texto. Todo esto, en la página ***index.html***
 - Se ha ajustado el ancho de la pantalla a un 80% para las pantallas de escritorio, llevando todos los contenidos más al centro.
 - Cuando las pantallas son más pequeñas, se ha expandido hasta un 90% el ancho de las páginas web.
